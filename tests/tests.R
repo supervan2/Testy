@@ -5,6 +5,6 @@
 #'
 #' Should this have markdown comments? No one will really ever see this.
 #'
-#'@importFrom testthat()
+#'@importFrom package testthat
 #'
 testthat::expect_that(make_filename(2013), equals("accident_2013.csv.bz2"))
