@@ -1,7 +1,3 @@
-#Just a small note: I assumed that the only functions to be exported should be
-#fars_summarize_years and fars_map_state and that all other functions are internal
-#to these two functions.
-
 #' Read data from external source and output it
 #'
 #' This function returns a tibble data frame extracted from a CSV file or a CSV
@@ -177,6 +173,7 @@ fars_summarize_years <- function(years) {
 #'
 #' @export
 fars_map_state <- function(state.num, year) {
+        globalVariables(c("MONTH", "STATE", "year"))
         filename <- make_filename(year)
         data <- fars_read(filename)
         state.num <- as.integer(state.num)
