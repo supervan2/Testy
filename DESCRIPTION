@@ -5,8 +5,7 @@ Version: 0.1
 Date: 2017-06-12
 Author: Waldo van der Merwe (package) - Coursera (functions)
 Maintainer: waldovdm@gmail.com
-Description: Data is imported from compressed CSV files and processed. Depending on
-the function used, either tabular data or a map will be shown.
+Description: Data is imported from compressed CSV files and processed. Depending on the function used, either tabular data or a map will be shown.
 License: GPL-3
 LazyData: TRUE
 RoxygenNote: 6.0.1
