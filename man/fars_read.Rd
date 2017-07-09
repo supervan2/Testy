@@ -25,7 +25,9 @@ Note that it works within the current working directory unless a full path
 is specified.
 }
 \examples{
+\dontrun{
 fars_read("C:/Users/All/Documents/Testy/R/data/accident_2013.csv.bz2")
 data <- fars_read(make_filename(2013))
+}
 
 }

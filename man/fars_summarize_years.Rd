@@ -27,8 +27,10 @@ while ensuring that the 'MONTH' column is not duplicated when multiple years
 are used as inputs.
 }
 \examples{
+\dontrun{
 fars_summarize_years(2013)
 fars_sumarize_years(c("2013","2014"))
 data <- fars_summarize_years(2013)
+}
 
 }

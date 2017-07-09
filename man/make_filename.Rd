@@ -22,10 +22,12 @@ file name. The input \code{year} is coerced as an integer with the R function
 base function \code{\link{as.integer}}
 }
 \examples{
+\dontrun{
 make_filename(2013)
 when<- 2013
 make_filename(when)
 make_filename("2013")
 data <- make_filename(2013)
+}
 
 }

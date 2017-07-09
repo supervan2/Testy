@@ -23,8 +23,10 @@
 #'    appropriate error is shown.
 #'
 #' @examples
+#' \dontrun{
 #' fars_read("C:/Users/All/Documents/Testy/R/data/accident_2013.csv.bz2")
 #' data <- fars_read(make_filename(2013))
+#' }
 #'
 fars_read <- function(filename) {
         if(!file.exists(filename))
@@ -50,11 +52,13 @@ fars_read <- function(filename) {
 #'    to the console.
 #'
 #' @examples
+#' \dontrun{
 #' make_filename(2013)
 #' when<- 2013
 #' make_filename(when)
 #' make_filename("2013")
 #' data <- make_filename(2013)
+#' }
 #'
 make_filename <- function(year) {
         year <- as.integer(year)
@@ -81,9 +85,11 @@ make_filename <- function(year) {
 #'    dataset.
 #'
 #' @examples
+#' \dontrun{
 #' fars_read_years(2013)
 #' fars_read_years(c("2013","2014"))
 #' data <- fars_read_years(2013)
+#' }
 #'
 fars_read_years <- function(years) {
         lapply(years, function(year) {
@@ -122,9 +128,11 @@ fars_read_years <- function(years) {
 #'    years.
 #'
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(2013)
 #' fars_sumarize_years(c("2013","2014"))
 #' data <- fars_summarize_years(2013)
+#' }
 #'
 #' @export
 fars_summarize_years <- function(years) {
@@ -162,8 +170,10 @@ fars_summarize_years <- function(years) {
 #'    the console, while an appropriate message (not error) is displayed.
 #'
 #' @examples
+#' \dontrun{
 #' fars_map_state(1,2015)
 #' fars_map_state(54,2015)
+#' }
 #'
 #' @export
 fars_map_state <- function(state.num, year) {

@@ -31,7 +31,9 @@ outlying LAT/LONG points found within the data and subsequently the polygon
 drawn is clipped beyond these bounds.
 }
 \examples{
+\dontrun{
 fars_map_state(1,2015)
 fars_map_state(54,2015)
+}
 
 }

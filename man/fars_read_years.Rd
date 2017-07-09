@@ -25,8 +25,10 @@ The base R function\code{\link{tryCatch}}is used to catch errors created by
 without interrupting the execution of the base R function \code{\link{lapply}}.
 }
 \examples{
+\dontrun{
 fars_read_years(2013)
 fars_read_years(c("2013","2014"))
 data <- fars_read_years(2013)
+}
 
 }
