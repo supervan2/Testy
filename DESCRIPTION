@@ -4,7 +4,7 @@ Title: Display accident data in a table or a map
 Version: 0.1
 Date: 2017-06-12
 Author: Waldo van der Merwe (package) - Coursera (functions)
-Maintainer: waldovdm@gmail.com
+Maintainer: Waldo van der Merwe <waldovdm@gmail.com>
 Description: Data is imported from compressed CSV files and processed. Depending on the function used, either tabular data or a map will be shown.
 License: GPL-3
 LazyData: TRUE
