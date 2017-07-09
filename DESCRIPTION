@@ -1,14 +1,15 @@
 Package: Testy
-Type: Package
-Title: Display accident data in a table or a map
-Version: 0.1
-Date: 2017-06-12
-Author: Waldo van der Merwe (package) - Coursera (functions)
-Maintainer: Waldo van der Merwe <waldovdm@gmail.com>
-Description: Data is imported from compressed CSV files and processed. Depending on the function used, either tabular data or a map will be shown.
-License: GPL-3
-LazyData: TRUE
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.2.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    readr,
+    tidyr,
+    maps,
+    graphics
 RoxygenNote: 6.0.1
-Suggests: knitr,
-    rmarkdown
-VignetteBuilder: knitr
