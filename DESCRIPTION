@@ -1,5 +1,5 @@
 Package: Testy
-Title: Display accident data in tables or maps.
+Title: Display accident data in tables or maps
 Version: 0.0.0.9000
 Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
 Description: Reads data from compressed CSV files, filters the data and displays as either a summarized table or a map.

@@ -1,4 +1,4 @@
-globalVariables(c("STATE", "MONTH", "year"))
+globalVariables(c("STATE", "MONTH", "year", "n"))
 #' Read data from external source and output it
 #'
 #' This function returns a tibble data frame extracted from a CSV file or a CSV
@@ -75,7 +75,7 @@ make_filename <- function(year) {
 #'
 #' @param years A vector of numbers or character strings representing years.
 #'
-#' @importFrom dplyr mutate select
+#' @import dplyr
 #'
 #' @return This function returns a list (the same length as \code{years}) of
 #'    tibbles. NULL is returned for each input year not corresponding to a valid
@@ -116,7 +116,7 @@ fars_read_years <- function(years) {
 #'
 #' @param years A vector of numbers or character strings representing years.
 #'
-#' @importFrom dplyr bind_rows group_by summarize
+#' @import dplyr
 #' @importFrom tidyr spread
 #'
 #' @return This function returns a tibble summarizing the data found for each
