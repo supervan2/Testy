@@ -11,8 +11,7 @@ Imports: dplyr,
     readr,
     tidyr,
     maps,
-    graphics,
-    testthat
+    graphics
 RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown,
