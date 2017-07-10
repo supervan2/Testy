@@ -14,3 +14,6 @@ Imports: dplyr,
     graphics,
     testthat
 RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
